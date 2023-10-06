@@ -1,0 +1,126 @@
+.container{
+    height: auto;
+    width: auto;
+}
+
+a{
+    color: #ffff !important;
+    font-family: 'Assistant', sans-serif;
+}
+
+#boom {
+    background-color: #FAF9F8 !important;
+}
+body {
+    background-color: #FAF9F8 !important;
+}
+#navlet {
+    color: #1E3706 !important;
+    font-family: 'Assistant', sans-serif;
+}
+.feuille img {
+    width: 536px;
+    height: 800px;
+    position: absolute;
+}
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* Page d'accueil */
+.intro{
+    margin-left: 700px;
+    margin-top: 220px;
+}
+.intro1 {
+    color: #1E3706 !important;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 50px;
+}
+.intro2{
+    color: #1E3706 !important;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    margin-top: 70px;
+}
+.intro3 {
+    background-color: #1E3706;
+    font-size: 20px;
+    margin-top: 90px;
+    border-radius: 18px;
+    width: 230px;
+    height: 40px;
+}
+.intro3 a {
+    margin-left: 26px;
+    top: 30px;
+}
+/* Ferme Page d'accueil */
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* Page propos de nous */
+.introo {
+    margin-left: 700px;
+    margin-top: 220px;
+}
+
+.intro11 {
+    color: #1E3706 !important;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 50px;
+}
+
+.intro22 {
+    color: #1E3706 !important;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    margin-top: 70px;
+}
+/* Ferme propos de nous */
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* Page inscription */
+.introoo {
+    margin-left: 700px;
+    margin-top: 220px;
+}
+
+.intro111 {
+    color: #1E3706 !important;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 50px;
+    margin-left: 25%;
+}
+
+.container1{
+    background-color: #E4DED7;
+    border-radius: 18px;
+    border: #1E3706 solid;
+    width: 600px;
+    height: 460px;
+}
+#name{
+    margin-top: 0.5px;
+    margin-left: 2px !important;
+}
+.name1{
+    font-size: 25px;
+}
+
+
+.intro33 {
+    background-color: #1E3706;
+    color: #ffff;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+    margin-top: 25px;
+    border-radius: 18px;
+    width: 140px;
+    height: 40px;
+    margin-left: 35%;
+}
+/* Ferme Page inscription */
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
