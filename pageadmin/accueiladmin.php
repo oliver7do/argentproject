@@ -7,8 +7,8 @@ include_once "../views/inc/headeradmin.php";
 </div>
 
 <div>
-    <h1 class="hist">PREMIERES DEMANDES</h1>
-    <div class="hist1">
+    <h1 class="accu">DERNIERS DEMANDES</h1>
+    <div class="accu1">
 
         <div>
 

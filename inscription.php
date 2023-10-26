@@ -53,6 +53,6 @@ include_once "./views/inc/header.php";
 
     </div>
     <div class="intro33">
-        <a type="submit" name="submit" value="submit" class="nav-link active" aria-current="page" href="http://localhost/argentproject/">REGISTER</a>
+        <a type="submit" name="submit" value="submit" class="nav-link active" aria-current="page" href="http://localhost/argentproject/connexion.php">REGISTER</a>
     </div>
 </div>

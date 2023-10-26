@@ -23,7 +23,7 @@
 
             <div class="container-fluid">
 
-                <a class="navbar-brand" href="http://localhost/argentproject/accueil.php" id="navlet">L'ARGENT</a>
+                <a class="navbar-brand" href="http://localhost/argentproject/pageadmin/accueiladmin.php" id="navlet">L'ARGENT</a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -34,22 +34,33 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarText">
 
                     <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+
+                            <a class="nav-link active" aria-current="page" href="http://localhost/argentproject/pageadmin/clientsadmin.php" id="navlet">CLIENTS</a>
+
+                        </li>
 
                         <li class="nav-item">
 
-                            <a class="nav-link active" aria-current="page" href="http://localhost/argentproject/proposdenous.php" id="navlet">A PROPOS DE NOUS</a>
+                            <a class="nav-link active" aria-current="page" href="http://localhost/argentproject/pageadmin/historiqueadmin.php" id="navlet">HISTORIQUE</a>
 
                         </li>
                         <li class="nav-item">
 
-                            <a class="nav-link active" aria-current="page" href="http://localhost/argentproject/inscription.php" id="navlet">INSCRIPTION</a>
+                            <a class="nav-link active" aria-current="page" href="http://localhost/argentproject/pageadmin/proposdenousadmin.php" id="navlet">PROPOS DE NOUS</a>
 
                         </li>
                         <li class="nav-item">
-
-                            <a class="nav-link active" aria-current="page" href="http://localhost/argentproject/connexion.php" id="navlet">CONNEXION</a>
-
+                            <a class="nav-link active" aria-current="page" href="http://localhost/argentproject/accueil.php" id="navlet">DECONNEXION</a>
                         </li>
+                        <div>
+                            <a href="http://localhost/argentproject/pageadmin/profileadmin.php">
+                                <i class="fa-regular fa-user" id="user1"></i>
+                            </a>
+                            <a href="http://localhost/argentproject/pageadmin/profileadmin.php">
+                                <i class="fa-regular fa-circle" id="circ1"></i>
+                            </a>
+                        </div>
                     </ul>
                 </div>
             </div>
