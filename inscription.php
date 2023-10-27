@@ -1,58 +1,43 @@
 <?php
+session_start();
 include_once "./views/inc/header.php";
-// require_once "model/functions.php";
 ?>
+
 <div class="feuille">
     <img src="./views/asset/img/logo.png" alt="">
 </div>
 <div class="introoo">
     <h1 class="intro111">REGISTER</h1>
     <div class="container1">
-
-        <div class="row g-2" id="name">
+        <form class="row g-3" id="name" method="post" action="./models/dbregister.php">
             <div class="col-md-5">
-                <label class="name1">Prénom*</label>
-                <input type="text" class="form-control" placeholder="Prénom" aria-label="prenom">
+                <input type="text" class="form-control" class="name1" placeholder="Prénom" aria-label="prenom" name="prenom">
             </div>
             <div class="col-md-5">
-                <label class="name1">Nom*</label>
-                <input type="text" class="form-control" placeholder="Nom" aria-label="nom">
+                <input type="text" class="form-control" class="name1" placeholder="Nom" aria-label="nom" name="nom">
             </div>
-        </div>
-
-        <form class="row g-3" id="name">
             <div class="col-md-5">
                 <label for="inputEmail" class="form-label">Email*</label>
-                <input type="email" class="form-control" placeholder="bonjour@oui.com" id="inputEmail" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
-            </div>
-            <div class="col-md-5">
-                <label for="inputState" class="form-label">Montant</label>
-                <select id="inputState" class="form-select">
-                    <option selected>Sélectionnez une option</option>
-                    <option>10.000$</option>
-                    <option>20.000$</option>
-                    <option>30.000$</option>
-                    <option>40.000$</option>
-                    <option>50.000$</option>
-                </select>
+                <input type="email" class="form-control" placeholder="bonjour@oui.com" id="inputEmail" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" name="email">
             </div>
             <div class="col-md-5">
                 <label for="inputProfession" class="form-label">Profession*</label>
-                <input type="profession" class="form-control" id="inputProfession">
+                <input type="text" class="form-control" id="inputProfession" name="profession">
+            </div>
+            <div class="col-md-5">
+                <label for="number" class="form-label">Téléphone*</label>
+                <input type="tel" class="form-control" placeholder="#99999" id="number" name="number" pattern="[0-9]{10}" required name="number">
             </div>
             <div class="col-md-5">
                 <label for="inputPassword4" class="form-label">Mot de passe*</label>
-                <input type="password" class="form-control" placeholder="********" id="inputPassword4">
-            </div>
-            <div class="col-7">
-                <label for="inputMessages" class="form-label">Messages*</label>
-                <input type="text" class="form-control" id="inputMessages" placeholder="Tapez votre message ici">
+                <input type="password" class="form-control" placeholder="********" id="inputPassword4" name="pass">
             </div>
 
+            <div>
+                <input type="submit" class="intro33" name="register" value="REGISTER" class="nav-link active" aria-current="page">
+            </div>
         </form>
 
     </div>
-    <div class="intro33">
-        <a type="submit" name="submit" value="submit" class="nav-link active" aria-current="page" href="http://localhost/argentproject/connexion.php">REGISTER</a>
-    </div>
+
 </div>

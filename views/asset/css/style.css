@@ -98,8 +98,9 @@ body {
     background-color: #E4DED7;
     border-radius: 18px;
     border: #1E3706 solid;
-    width: 630px;
-    height: 460px;
+    width: 530px;
+    height: 310px;
+    margin-left: 45px;
 }
 #name{
     margin-top: 30px;
@@ -114,17 +115,13 @@ body {
     color: #ffff;
     font-family: 'Assistant', sans-serif;
     font-size: 20px;
-    margin-top: 25px;
+    margin-top: 60px;
     border-radius: 18px;
     width: 140px;
     height: 40px;
-    margin-left: 232px;
+    margin-left: 122px;
 }
-.intro33 a {
-    margin-left: 28px;
-    margin-top: 5px;
-    position: absolute;
-}
+
 /* Ferme Page inscription */
 /* ----------------------------------------------------------- */
 /* ----------------------------------------------------------- */
@@ -184,11 +181,7 @@ body {
     height: 40px;
     margin-left: 35%;
 }
-.co11 a {
-    margin-left: 18px;
-    margin-top: 5px;
-    position: absolute;
-}
+
 /* Ferme Page Connexion */
 /* ----------------------------------------------------------- */
 /* ----------------------------------------------------------- */
