@@ -23,12 +23,12 @@ if (isset($_POST['submit'])) {
                 if ($userInfo['role'] == "admin") {
                     // definir la variable de session role
                     $_SESSION['role'] = $userInfo["role"];
-                    header("Location: http://localhost/argentproject/pageadmin/accueiladmin.php");
+                    header("Location: http://argentproject.com/pageadmin/accueiladmin.php");
                 } else {
                     // definir la variable de session role
                     $_SESSION['role'] = $userInfo["role"];
                     $_SESSION['id_user'] = $userInfo["id_user"];
-                    header("Location: http://localhost/argentproject/pageclient/accueilclient.php");
+                    header("Location: http://argentproject.com/pageclient/accueilclient.php");
                 }
             } else {
                 echo "Ahh tu fais malin";

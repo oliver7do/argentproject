@@ -13,7 +13,7 @@ include_once "./views/inc/header.php";
         <p class="intro2">L'objectif de cette organisation est d'aider les personnes les plus<br>démunies à répondre à leurs besoins financiers afin d'améliorer<br>leur vie et de subvenir aux besoins de leur famille.</p>
     </div>
     <div class="intro3">
-        <a class="nav-link active" aria-current="page" href="http://localhost/argentproject/inscription.php">DEMANDER DE L'AIDE</a>
+        <a class="nav-link active" aria-current="page" href="http://argentproject.com/inscription.php">DEMANDER DE L'AIDE</a>
     </div>
 </div>
 

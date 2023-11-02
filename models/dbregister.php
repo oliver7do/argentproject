@@ -20,7 +20,7 @@ if (isset($_POST['register'])) {
 
     try {
         $request->execute(array($prenom, $nom, $email, $profession, $number, $cryptedPassword));
-        header("Location: http://localhost/argentproject/connexion.php");
+        header("Location: http://argentproject.com/connexion.php");
     } catch (PDOException $e) {
         echo $e->getMessage();
     }
