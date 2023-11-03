@@ -13,14 +13,14 @@ if (isset($_POST['register'])) {
     $number = htmlspecialchars($_POST['number']);
     $pass = htmlspecialchars($_POST['pass']);
     // $message = htmlspecialchars($_POST['message']);
-    $cryptedPassword = password_hash($password, PASSWORD_DEFAULT);
+    $cryptedPassword = password_hash($pass, PASSWORD_DEFAULT);
 
     $db = dbConnexion();
     $request = $db->prepare("INSERT INTO `user`(`prenom`, `nom`, `email`,  `profession`, `number`, `pass`) VALUES (?,?,?,?,?,?)");
 
     try {
         $request->execute(array($prenom, $nom, $email, $profession, $number, $cryptedPassword));
-        header("Location: http://argentproject.com/connexion.php");
+        header("Location: http://localhost/argentproject/connexion.php");
     } catch (PDOException $e) {
         echo $e->getMessage();
     }

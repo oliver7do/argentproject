@@ -16,19 +16,16 @@ if (isset($_POST['submit'])) {
         if (empty($userInfo)) {
             echo "utilisateur inconnue";
         } else {
-            var_dump(password_verify($pass, $userInfo['pass']));die;
             // verifier si le mot de passe est correct
             if (password_verify($pass, $userInfo['pass'])) {
                 // si l'utilisateur est un admin
+                // definir la variable de session role
+                $_SESSION['role'] = $userInfo["role"];
+                $_SESSION['id_user'] = $userInfo["id_user"];
                 if ($userInfo['role'] == "admin") {
-                    // definir la variable de session role
-                    $_SESSION['role'] = $userInfo["role"];
-                    header("Location: http://argentproject.com/pageadmin/accueiladmin.php");
+                    header("Location: http://localhost/argentproject/pageadmin/accueiladmin.php");
                 } else {
-                    // definir la variable de session role
-                    $_SESSION['role'] = $userInfo["role"];
-                    $_SESSION['id_user'] = $userInfo["id_user"];
-                    header("Location: http://argentproject.com/pageclient/accueilclient.php");
+                    header("Location: http://localhost/argentproject/pageclient/accueilclient.php");
                 }
             } else {
                 echo "Ahh tu fais malin";
