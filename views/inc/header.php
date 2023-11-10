@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,5 +23,5 @@ session_start();
 
     <div class="container">
         <?php
-        include_once "./inc/nav.php";
+        include_once "nav.php";
         ?>

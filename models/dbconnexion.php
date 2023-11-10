@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
         $request->execute(array($email));
         $userInfo = $request->fetch(PDO::FETCH_ASSOC);
         if (empty($userInfo)) {
-            echo "utilisateur inconnue";
+            echo "Utilisateur inconnu";
         } else {
             // verifier si le mot de passe est correct
             if (password_verify($pass, $userInfo['pass'])) {
